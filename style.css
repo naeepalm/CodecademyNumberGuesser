@@ -6,7 +6,7 @@
 body {
   margin: 0 auto;
   padding: 3px;
-  background-color: #fff;
+  background-color: #F36D4B;
 }
 
 .game-container {
@@ -21,10 +21,14 @@ header {
 }
 
 .rounds {
+  color: white;
+  background-color: #F34BD2 ;
+  border: 5px solid #F34B7E;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .round-label {
@@ -87,7 +91,8 @@ header {
 }
 
 .human-guess {
-  border: 1px solid #979797;
+  border: 2px solid #F34B7E;
+  background-color: #F3C14B;
 }
 
 .guess input {
@@ -172,7 +177,8 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .instructions {
-  background-color: #ececec;
+  color: white;
+  background-color: #F34BD2;
   width: 100%;
   display: flex;
   justify-content: space-around;
